@@ -1,0 +1,233 @@
+
+.imageslide img{
+    width: 100%;
+    height: 676px;
+}
+.imageslide {
+    
+    animation: slide 25s infinite alternate;
+}
+.boximg{
+    overflow: hidden;
+    height: 660px;
+}
+@keyframes slide{
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20%);
+    }
+    40% {
+        transform: translateY(-33%);
+    }
+    60% {
+        transform: translateY(-33%);
+    }
+    65% {
+        transform: translateY(-60%);
+    }
+    80% {
+        transform: translateY(-65%);
+    }
+    100% {
+        transform: translateY(-65%);
+    }
+}
+.overlay-header-wrap{
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    z-index: 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.836));
+    margin-top: 5px;
+}
+.overlay-header-wrap a {
+    text-decoration: none;
+}
+.overlay-header-wrap .font{
+    color: #ffffff;
+    padding-top: 150px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.overlay-header-wrap .subtittle{
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 30px;
+    width: 700px;
+}
+.tombol-login-beranda{
+    text-decoration: none;
+    width: fit-content;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tombol-login-beranda:hover{
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    transform: scale(1.025);
+}
+.newssection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.news {
+    height: fit-content;
+    color: rgb(255, 255, 27);
+    margin-top: -5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: -19px;
+}
+.board{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+}
+.timelineberita{
+    animation: slidenews 15s infinite;
+}
+.box-timeline-wrap{
+    height: 60px;
+    overflow: hidden;
+
+}
+@keyframes slidenews{
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    35% {
+        transform: translateY(-60px);
+    }
+    55%{
+        transform: translateY(-60px);
+    }
+    75% {
+        transform: translateY(-120px);
+    }
+    90% {
+        transform: translateY(-120px);
+    }
+
+}
+.linenews{
+    width:  3px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.beritaterkini{
+    padding-top: 2px;
+    margin-left: 10px;
+}
+.labelberita{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.berita{
+    color: #ffffff;
+    font-weight: 300;
+}
+/* background-color: rgb(3, 54, 88); */
+.section2{
+    width: 100%;
+    height: 600px;
+    background-color: #05204a;
+    padding-top: 60px;
+}
+.ourservices{
+    color: rgb(254, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+}
+.tittleservices{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+}
+.subservices{
+    margin-top: 10px;
+    color: #ffffff;
+    width:  700px;
+}
+.servicesinfo{
+    margin-left: 100px;
+}
+
+.box-selection-wrap {
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-selection-wrap a {
+    text-decoration: none;
+}
+.box-selection{
+    width: 300px;
+    height: 200px;
+    background-color: #f4fdff;
+    margin-bottom: 6px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: .2s;
+}
+.box-selection:hover{
+    background-color: #8ddef0;
+    transform: scale(1.1);
+    transform: translateY(-15px);
+}
+.foto-logo-beasiswa {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+.foto-logo-lomba {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.foto-logo-mahasiswa{
+    width: 130px;
+    height: 80px;
+    margin-top: 10px;
+}
+.font-menu-only-beasiswa {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    width: 200px;
+}
+.font-menu {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    width: 200px;
+}

@@ -1,0 +1,241 @@
+
+.bodyWrapDashboard
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.section1Wrap
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+}
+.section1Wrap .introDashboardWrap
+{
+    position: static;
+}
+.section1Wrap .introDashboardWrap .introDashboard 
+{
+    position: static;
+}
+.section1Wrap .introDashboardWrap .introDashboard span
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+.section1Wrap .introDashboardWrap .introDashboard span.userFontStyle
+{
+    font-weight: 700;
+}
+.boxRequestWrap
+{
+    width: 325px;
+}
+.boxRequestWrap .boxRequest
+{
+    height: 135px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.363);
+    border-radius: 5px;
+    background-color: #EFEFEF;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.boxRequestWrap .boxRequest .fontTitle
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+.boxRequestWrap .boxRequest .profilWrap
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.boxRequestWrap .boxRequest .profilWrap .borderProfil
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: grey;
+    margin-right: 10px;
+}
+.boxRequestWrap .boxRequest .profilWrap .fontProfil .fontUsername
+{
+    font-size: 13px;
+    font-weight: 500;
+}
+.boxRequestWrap .boxRequest .profilWrap .fontProfil .fontRoleAccount
+{
+    font-size: 11px;
+    font-weight: 300;
+}
+.boxRequestWrap .boxRequest .tombolCekNotif
+{
+    width: 95%;
+    height: fit-content;
+    color: #fff;
+    background-color: rgb(91, 61, 226);
+    border: none;
+    border-radius: 5px;
+    margin-top: 14px;
+    margin-left: 3.5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+.boxRequestWrap .boxRequest .tombolCekNotif:hover
+{
+    background-color: rgb(69, 46, 172);
+}
+.section2Wrap
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.363);
+    background-color: #EFEFEF;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+}
+.section2Wrap .boxCountWrap
+{
+    height: fit-content;
+    
+}
+.section2Wrap .boxCountWrap .countAllData
+{
+    width: 250px;
+    height: 60px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.363);
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-bottom: 5px solid gold;
+    margin-top: 20px;
+}
+.section2Wrap .boxCountWrap .countAllData .fontTitle
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+.section2Wrap .boxCountWrap .countAllData .fontCount
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+.section2Wrap .chartData
+{
+    width: 800px; 
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 30px;
+
+}
+
+
+
+
+/* 
+.section_box1
+{
+    height: fit-content;
+}
+.section_box1 .container_wrap
+{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.section_box1 .container_wrap .box1
+{
+    width: 660px;
+    height: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.59);
+    border-radius: 15px;
+    background-color: #EFEFEF;
+}
+.section_box1 .container_wrap .boxRequest_notifikasi
+{
+    width: 580px;
+    height: 220px;
+    background-color: #EFEFEF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.59);
+    border-radius: 15px;
+    padding-top: 21px;
+    padding-left: 30px;
+}
+.section_box1 .boxRequest_notifikasi p.title_box
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-bottom: 22px;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester .border_profil
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #818181;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester .profil_username
+{
+    margin-left: 22px;
+    margin-top: -2px;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester .profil_username p.username
+{
+    font-size: 17px;
+    font-weight: 500;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester .profil_username p.role
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+.section_box1 .boxRequest_notifikasi .line
+{
+    width: 527px;
+    border-bottom: 1px solid black;
+    margin-top: 24px;
+}
+.section_box1 .boxRequest_notifikasi .annoucement
+{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 19px;
+}
+.section_box2
+{
+    position: static;
+}
+.section_box2 .container_wrap
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section_box2 .container_wrap .box_analys
+{
+    height: 509px;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.59);
+} */

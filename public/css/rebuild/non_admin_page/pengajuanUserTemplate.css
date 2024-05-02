@@ -1,0 +1,101 @@
+.formCardPengajuan
+{
+    width: 77%;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.747);
+}
+.formCardPengajuan .titleForm
+{
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: -60%;
+    margin-top: 15px;
+}
+.formCardPengajuan .formInputWrap
+{
+    margin-left: -80%;
+    margin-top: 30px;
+}
+.formCardPengajuan .formInputWrap .groupColumn
+{
+     margin-bottom: 20px;
+}
+.formCardPengajuan .formInputWrap .groupColumn label
+{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: -20px;
+}
+.formCardPengajuan .formInputWrap .groupColumn label.overflow
+{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 90px;
+}
+.formCardPengajuan .formInputWrap .groupColumn label.nama
+{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: -35px;
+}
+.formCardPengajuan .formInputWrap .groupColumn p.fontIdentitasPengajuan.nama
+{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -5px;
+}
+.formCardPengajuan .formInputWrap .groupColumn p.fontIdentitasPengajuan.nim
+{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -67px;
+}
+.formCardPengajuan .formInputWrap .groupColumn input.columnForm
+{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 0.5px solid black;
+    width: 300px;
+    margin-left: 140px;
+}
+.formCardPengajuan .formInputWrap .groupColumn input.columnForm::placeholder
+{
+    font-style: italic;
+}
+.formCardPengajuan .formInputWrap .groupTbl
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 750px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.formCardPengajuan .formInputWrap .groupTbl .tblKirim
+{
+    width: 300px;
+    height: fit-content;
+    padding: 15px;
+    background-color: rgb(0, 146, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.formCardPengajuan .formInputWrap .groupTbl .tblBatal
+{
+    width: 200px;
+    height: fit-content;
+    padding: 13px;
+    background-color: rgb(168, 168, 168);
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 20px;
+}

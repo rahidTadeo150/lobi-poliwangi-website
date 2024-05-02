@@ -1,0 +1,6 @@
+body.nonAdmin
+{
+    min-width: 641px;
+    background-color: #05204a;
+    padding-top: 108px;
+}

@@ -1,0 +1,270 @@
+.body-list-beasiswa {
+    background-color: #05204a;
+    min-height: 651px;
+    width: 100%;
+    padding-bottom: 80px;
+    margin-top: 60px;
+}
+.header-img{
+    width: 100%;
+    height: 550px;
+}
+.overlay-header{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.tittle-page{
+    margin-top: 130px;
+    margin-left: 490px;
+}
+.fname-page{
+    font-size: 50px;
+    color: #f4fdff;
+}
+.lname-page {
+    margin-top: -30px;
+    margin-left: 130px;
+    font-size: 50px;
+    color: #f4fdff;
+}
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.info-box-wrap {
+    width: 83%;
+    height: 170px;
+    background-color: #f4fdff;
+    position: absolute;
+    z-index: 2;
+    top: 48%;
+    left: 8.5%;
+    border-radius: 9px;
+}
+.topik-info{
+    width: fit-content;
+    font-size: 15px;
+    font-weight: 700;
+}
+.sub-info{
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+}
+.line-pembatas {
+    margin-top: -30px;
+    font-size: 85px;
+    font-weight: 50;
+}
+.headerIndexList
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.form-pencarian-beasiswa {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pencarianwrap{
+    margin-bottom: 30px;
+}
+.kolom-penarian-list {
+    width: 600px;
+    height: 38px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.kolom-penarian-list::placeholder {
+    font-style: italic;
+}
+.tombol-cari {
+    width: 80px;
+    height: 38px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #f4fdff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.headerIndexList .filterWrap .tblFilter
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    background-color: #f4fdff;
+    width: fit-content;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+.headerIndexList .filterWrap .filterDropdown
+{
+    position: absolute;
+    width: 200px;
+    height: fit-content;
+    background-color: rgb(223, 223, 223);
+    left: 82.5%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.63);
+    display: none;
+}
+.headerIndexList .filterWrap .filterDropdown.active
+{
+    position: absolute;
+    width: 200px;
+    height: fit-content;
+    background-color: rgb(223, 223, 223);
+    left: 82.5%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.63);
+    display: block;
+}
+.headerIndexList .filterWrap .filterDropdown .dropdownOpsi
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    margin-top: 8px;
+    height: fit-content;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: start;
+}
+.headerIndexList .filterWrap .filterDropdown .dropdownOpsi:hover
+{
+    background-color: rgb(202, 202, 202);
+    font-weight: 500;
+}
+.warpbox{
+    margin-left: 50px;
+    overflow: hidden;
+}
+.boxbeasiswa{
+    margin-right: 80px;
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+    background-color: #f4fdff;
+    border-radius: 8px;
+    float: left;
+}
+.foto-poster-preview-beasiswa{
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+}
+.interaktif-font{
+    color: #f4fdff;
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.box-information{
+    margin-top: 250px;
+    width: 350px;
+    height: 100px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: absolute;
+    overflow: hidden;
+    transition: .3s;
+}
+.box-information:hover{
+    margin-top: 150px;
+    height: 200px;
+}
+.font-box-information {
+    margin-left: 10px;
+}
+.font-nama-beasiswa{
+    width: 350px;
+    color: #f4fdff;
+    font-size: 23px;
+    font-weight: 500;
+}
+.font-instansi-beasiswa{
+    margin-top: -5px;
+    width: 350px;
+    color: #f4fdff;
+    font-size: 18px;
+    font-weight:400;
+}
+.font-deadline-tetap{
+    color: #f4fdff;
+    font-size: 18px;
+    width: 350px;
+}
+.font-deadline{
+    width: 350px;
+    color: #f4fdff;
+    font-size: 15px;
+    font-weight:400;
+}
+.font-list-information{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 1;
+}
+/**/
+.label{
+    font-size: 15px;
+    left: 3%;
+    margin-top: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #4fe222;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 1;
+}
+.redlabel{
+    font-size: 15px;
+    left: 3%;
+    margin-top: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #4fe222;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: rgb(167, 167, 167);
+}
+
+.fontnodata{
+    color: #f4fdff;
+    margin-top: 50px;
+    text-align: center;
+}

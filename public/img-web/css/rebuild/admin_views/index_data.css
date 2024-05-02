@@ -1,0 +1,281 @@
+.section_component#setting_default .header_wrap
+{
+    width: 100%;
+    height: fit-content;
+    background-color: #bbc2c7;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-top: -28px;
+}
+.toolbar_menu_index_data
+{
+    display: flex;
+    justify-content: space-between;
+}
+.toolbar_menu_index_data a
+{
+    text-decoration: none;
+}
+.judul_dan_pencarian_data_tabel .judul_tabel_admin
+{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.judul_dan_pencarian_data_tabel .judul_tabel_admin .font_judul_tabel
+{
+    font-size: 40px;
+    font-weight:600;
+}
+.judul_dan_pencarian_data_tabel .judul_tabel_admin .font_judul_tabel.label_tabel
+{
+    width: fit-content;
+    height: fit-content;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(22, 27, 92);
+    border-radius: 5px;
+    color: #fff;
+}
+.tombol_tambah_data_admin
+{
+    width: 300px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: rgb(22, 199, 22);
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.356);
+    font-variant: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.tombol_tambah_data_admin:hover
+{
+    background-color: rgb(20, 219, 20);
+}
+.tombol_tambah_data_admin .icon_tombol_tambah_data i
+{
+    height: 35px;
+    line-height: 35px;
+}
+.tombol_tambah_data_admin .font_tombol_tambah_data
+{
+    height: 35px;
+    line-height: 35px;
+    margin-left: 5px;
+    font-weight: 500;
+} 
+.searchToolkit
+{
+    display: flex;
+    flex-direction: row;
+}
+.searchToolkit .search_engine_cari_data
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.356);
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.searchToolkit .search_engine_cari_data.active
+{   
+    width: 325px;
+}
+.searchToolkit .search_engine_cari_data .icon_search_cari_data
+{
+    position: absolute;
+}
+.searchToolkit .search_engine_cari_data .icon_search_cari_data i
+{
+    font-size: 20px;
+    color: #005ec9;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.searchToolkit .search_engine_cari_data .kolom_cari_wrap
+{   
+    position: relative;
+    width: 285px;
+    height: 40px;
+    left: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchToolkit .search_engine_cari_data .kolom_cari_wrap input.kolom_pencarian_data_data
+{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.searchToolkit .search_engine_cari_data .kolom_cari_wrap input.kolom_pencarian_data_data::placeholder
+{   
+    font-style: italic;
+}
+.searchToolkit .search_engine_cari_data .kolom_cari_wrap span.icon_clear_search_data_tabel
+{   
+    position: absolute;
+    right: 6%;
+}
+.searchToolkit .search_engine_cari_data .kolom_cari_wrap span.icon_clear_search_data_tabel i
+{
+    cursor: pointer;
+}
+.toolbar_menu_index_data .searchToolkit .btnFilterWrap
+{
+    position: relative;
+}
+.toolbar_menu_index_data .searchToolkit .btnFilterWrap .tblFilter
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toolbar_menu_index_data .searchToolkit .btnFilterWrap .tblFilter i
+{
+    color: #005ec9;
+    font-size: 20px;
+}
+.toolbar_menu_index_data .searchToolkit .btnFilterWrap .dropdownFilter
+{  
+    position: absolute;
+    height: fit-content;
+    width: 225px;
+    background-color: rgb(245, 245, 245);
+    margin-left: -180px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: none;
+    transition: 2s;
+}
+.toolbar_menu_index_data .searchToolkit .btnFilterWrap .dropdownFilter.active
+{  
+    display: block;
+}
+.toolbar_menu_index_data .searchToolkit .btnFilterWrap .dropdownFilter .opsiDropdown
+{  
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: fit-content;
+    line-height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.toolbar_menu_index_data .searchToolkit .btnFilterWrap .dropdownFilter .opsiDropdown.active
+{  
+    background-color: rgb(211, 211, 211);
+    font-weight: 500;
+}
+.toolbar_menu_index_data .searchToolkit .btnFilterWrap .dropdownFilter .opsiDropdown:hover
+{  
+    background-color: rgb(211, 211, 211);
+}
+.tabel_data_wrap {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.table_index_data_admin table
+{
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table_index_data_admin table thead td
+{
+    font-weight: 600;
+}
+.table_index_data_admin table tr td
+{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    letter-spacing: 0.2px;
+    min-width: 100px;
+}
+.table_index_data_admin table tr
+{
+    border-bottom: 0.8px solid rgba(63, 63, 63, 0.808);
+    transition: 0.5s;
+}
+.table_index_data_admin table tr:last-child
+{
+    border-bottom: none;
+}
+.table_index_data_admin table thead tr
+{
+    border-bottom: none;
+    cursor: default;
+}
+.table_index_data_admin table tbody tr:hover
+{   
+    background-color: #bbc2c7;
+    color: #000000;
+}
+.table_index_data_admin table tbody tr td a .tombol_preview_data
+{
+    width: 35px;
+    height: 23px;
+    border-radius: 5px;
+    background-color: rgb(105, 105, 105);
+    text-decoration: none;
+}
+.table_index_data_admin table tbody tr td a .tombol_preview_data i
+{
+    color: #ffffff;
+    font-size: 14px;
+    padding-left: 11px;
+    padding-top: 5px;
+}   
+.table_index_data_admin table tbody tr td .tombolActionWrap
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+}
+.table_index_data_admin table tbody tr td form button.tombolHapusData
+{
+    width: 35px;
+    height: 23px;
+    border-radius: 5px;
+    background-color: rgb(146, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+.table_index_data_admin table tbody tr td form button.tombolHapusData span i
+{
+    color: #ffffff;
+    font-size: 14px;
+}   

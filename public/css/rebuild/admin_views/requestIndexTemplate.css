@@ -1,0 +1,159 @@
+.bodyRequestIndexTemplate .headerTitlePage
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #d4d4d4;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin-top: -30px;
+}
+.section_component#setting_default .bodyRequestIndexTemplate .headerTitlePage .fontTitlePage
+{
+    font-size: 35px;
+    font-weight: 600;
+}
+.section_component#setting_default .bodyRequestIndexTemplate .headerTitlePage .fontBaganRequest
+{
+    font-size: 18px;
+    font-weight: 300;
+}
+.changesDataTbl
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 45%;
+    justify-content: space-between;
+}
+.changesDataTbl .tblChangesWrap .tblChanges
+{
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 183, 255);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+.changesDataTbl .tblChangesWrap .tblChanges.active
+{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(0, 183, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(0, 183, 255);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+}
+.changesDataTbl .tblChangesWrap .tblChanges:hover
+{
+    box-shadow: 0px 0px 10px rgba(0, 38, 255, 0.644);
+}
+.changesDataTbl .tblChangesWrap .tblChanges.active:hover
+{
+    box-shadow: 0px 0px 0px rgba(0, 38, 255, 0);
+}
+.bodyRequestIndexTemplate .notifyWrap
+{
+    height: fit-content;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.438);
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bodyRequestIndexTemplate .notifyFontTitle
+{
+    font-size: 21px;
+    font-weight: 600;
+}
+.bodyRequestIndexTemplate .notifyWrap .columnNotify
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+    height: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.486);
+}
+.bodyRequestIndexTemplate .notifyWrap .columnNotify:hover
+{
+    background-color: #d4d4d4;
+}
+.bodyRequestIndexTemplate .notifyWrap .columnNotify .profilInformationWrap
+{
+    display: flex;
+    flex-direction: row;
+}
+.bodyRequestIndexTemplate .notifyWrap .columnNotify .profilInformationWrap .profilBorder
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: grey;
+    margin-right: 15px;
+}
+.bodyRequestIndexTemplate .notifyWrap .columnNotify .profilInformationWrap span
+{
+   font-size: 15px;
+   line-height: 34.5px;
+}
+.bodyRequestIndexTemplate .notifyWrap .columnNotify .profilInformationWrap .username
+{
+   font-weight: 600;
+}
+.bodyRequestIndexTemplate .notifyWrap .columnNotify .columnRightNotifiy
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.bodyRequestIndexTemplate .notifyWrap .columnNotify .columnRightNotifiy .requestAt
+{
+    font-size: 11px;
+    font-weight: 500;
+}
+.notifyWrap .fontTitleNotifyWrap .notifyFontTitle
+{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.notifyWrap .fontTitleNotifyWrap .subtitleWrap 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.notifyWrap .fontTitleNotifyWrap .subtitleWrap p
+{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #424242;
+}
+.notifyWrap .fontTitleNotifyWrap .subtitleWrap p.clearAllData
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.notifyWrap .fontTitleNotifyWrap .subtitleWrap p.clearAllData:hover
+{
+    color: black;
+}

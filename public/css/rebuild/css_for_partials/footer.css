@@ -1,0 +1,52 @@
+.footer {
+    width: 100%;
+    height: 180px;
+    background-color: #0e1418;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-footer-poliwangi {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.iconfooter{
+    display: flex;
+}
+.font-logo-footer{
+    margin-left: 23px;
+    margin-top: 35px;
+}
+.tittle-name{
+    font-size: 35px;
+    font-weight: 650;
+    color: #f4fdff;
+}
+.sub-name{
+    margin-top: -4px;
+    font-size: 10px;
+    font-weight: 515;
+    color: #f4fdff;
+}
+.emailcont{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 80px;
+    font-weight: 300;
+}
+.lokasi{
+    font-size: 15px;
+    text-align: center;
+}
+.fontlokasi {
+    color: #f4fdff;
+}
+.contact {
+    text-align: center;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.fontcontact{
+    color: #f4fdff;
+}

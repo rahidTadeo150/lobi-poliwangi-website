@@ -1,0 +1,173 @@
+
+/* Body Container */
+.body-container {
+    width: 100%;
+}
+/* End-Body-Container */
+
+/* Background-and-layout-gelap */
+.layout-background {
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.background {
+    width:100%;
+    height: 100%;
+}
+/* End-Background-And-Layout-Gelap */
+
+/* Kotak-Form-Login */
+.kotak-login {
+    width: 840px;
+    height: fit-content;
+    padding-bottom: 40px;
+    border-radius: 1.5vw;
+    border: 3px solid #aaaaaa;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+    z-index: 2;
+    top: 23%;
+    left: 20%;
+}
+.kotak-login.admin {
+    width: 840px;
+    height: fit-content;
+    padding-bottom: 40px;
+    border-radius: 1.5vw;
+    border: 3px solid #aaaaaa;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+    z-index: 2;
+    top: 19%;
+    left: 20%;
+}
+/* End-Kotak-Form-Login */
+
+/* judul-login-wrap */
+.judul-login-wrap {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+/* End-judul-login-wrap */
+
+/* Judul=Login */
+.judul-Login{
+    color: #F9F9F9;
+    font-weight: 700;
+    font-size: 38px;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+/* End-Judul-Login */
+
+/* Line-Judul-Login */
+.line-judul-login {
+    width: 330px;
+    height: 2px;
+    margin-top: 45px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: #F9F9F9;
+}
+/* End-Line-Judul-Login */
+
+/* styling-Kolom-Pengisian*/
+.form-pengisian {
+    margin-left: 40px;
+}
+.kolom-wrap {
+    padding-top: 40px;
+}
+.satu-kolom-pengisian {
+    margin-top: 15px;
+}
+.label-kolom {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 400;
+}
+.kolom-pengisian {
+    width: 300px;
+    height: 35px;
+    border: 0;
+    border-radius: 20px;
+    padding-left: 15px;
+    opacity: .8;
+    outline: none;
+}
+
+.kolom-pengisian::placeholder {
+    font-style: italic;
+}
+/* End-styling-Kolom-Pengisian*/
+
+/* Gambar-kolom-pengisian */
+.pengisian-username-password{
+    display: flex;
+    flex-direction: row;
+}
+.pengisian-username-password .opsiLogin
+{
+    margin-top: 80px;
+}
+.pengisian-username-password .opsiLogin .fontTittleOpsi
+{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F9F9F9;
+}
+.pengisian-username-password .opsiLogin .tombol-login {
+    width: 400px;
+    height: 45px;
+    color: #F9F9F9;
+    font-weight: 500;
+    font-size: large;
+    margin-top: -15px;
+    padding-right: 1.5vw;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, rgb(252,25,25), rgb(4,95,209));
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+    animation: animasibtnlogin 15s infinite;
+}
+.pengisian-username-password .opsiLogin .tombol-login:hover {
+    transform: scale(1.02);
+}
+.form-pengisian .tombol-login {
+    width: 748px;
+    height: 45px;
+    color: #F9F9F9;
+    font-weight: 500;
+    font-size: large;
+    margin-top: 10px;
+    padding-right: 1.5vw;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, rgb(252,25,25), rgb(4,95,209));
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+    animation: animasibtnlogin 15s infinite;
+}
+.form-pengisian .tombol-login:hover {
+    transform: scale(1.02);
+}
+.gambar-form-pengisian {
+    width: 280px;
+    height: 250px;
+    margin-left: 5vw;
+}
+/* End-Gambar-Kolom-Pengisian */
+
+
+

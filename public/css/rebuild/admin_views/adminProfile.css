@@ -1,0 +1,93 @@
+.mainCardArea
+{
+    width: 60%;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.459);
+}
+.mainCardArea .profilWrap
+{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mainCardArea .profilWrap .profilBorder
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #c4c4c4;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainCardArea .profilWrap .profilBorder i
+{   
+    font-size: 50px;
+    color: black;
+}   
+.mainCardArea .fontInfoWrap .fontNamaUser
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.mainCardArea .opsiBox .buttonOpsiWrap .groupOpsi.logout
+{
+    width: 70%;
+    height: fit-content;
+    background-color: rgb(170, 5, 5);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mainCardArea .opsiBox .buttonOpsiWrap .groupOpsi.logout .fontWrap
+{
+    display: flex;
+    width: 90%;
+    text-align: start;
+}
+.mainCardArea .opsiBox .buttonOpsiWrap .groupOpsi.logout .fontWrap .fontButton
+{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.mainCardArea .opsiBox .buttonOpsiWrap .groupOpsi.logout .fontWrap .iconButton
+{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 3px;
+    margin-right: 10px
+}
+.mainCardArea .opsiBox .buttonOpsiWrap .groupOpsi
+{
+    width: 70%;
+    height: fit-content;
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.mainCardArea .opsiBox .buttonOpsiWrap .groupOpsi .fontWrap
+{
+    display: flex;
+    width: 90%;
+    text-align: start;
+}
+.mainCardArea .opsiBox .buttonOpsiWrap .groupOpsi .fontWrap .fontButton
+{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+}
+.mainCardArea .opsiBox .buttonOpsiWrap .groupOpsi .fontWrap .iconButton
+{
+    font-size: 16px;
+    color: #000000;
+    margin-top: 3px;
+    margin-right: 10px
+}

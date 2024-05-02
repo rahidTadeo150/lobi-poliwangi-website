@@ -1,0 +1,231 @@
+
+.sidebar_admin
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    box-sizing: initial;
+    background-color: #010616;
+    transition: 0.4s;
+    overflow-x: hidden;
+    z-index: 9999;
+    box-shadow: 0 10 10px rgba(0, 0, 0, 0.623);
+}
+.sidebar_admin.active
+{
+    width: 300px;
+
+}
+.sidebar_admin .title_sidebar_wrap
+{
+    width: 100%;
+}
+.sidebar_admin .title_sidebar_wrap .title_sidebar
+{
+    width: 101%;
+    height: 72px;
+    background-color: #112058;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+}
+.sidebar_admin .title_sidebar_wrap .title_sidebar .container_wrap
+{
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sidebar_admin .title_sidebar_wrap .title_sidebar .container_wrap i
+{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.sidebar_admin .title_sidebar_wrap .title_sidebar .container_wrap .font_header .font_label_sidebar
+{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    margin-left: 3px;
+}
+.sidebar_admin .title_sidebar_wrap .title_sidebar .container_wrap .font_header .font_title_sidebar
+{
+    height: fit-content;
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: -8px;
+}
+.sub_opsi
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+.sub_opsi .fontstyle
+{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #fff;
+}
+.sidebar_admin ul
+{
+    position: relative;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.sidebar_admin ul li
+{
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+
+.sidebar_admin ul li.active
+{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.sidebar_admin ul li.menu_sidebar
+{
+    margin-bottom: 20px;
+}
+.sidebar_admin ul li a
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sidebar_admin ul li.active a {
+    color: #000000;
+}
+.sidebar_admin ul li a .menu_icon
+{
+    position: relative;
+    display: block;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.sidebar_admin ul li a .menu_icon i
+{
+    font-size: 1.4em;
+    line-height: 44px;
+}
+.sidebar_admin ul li a .tittle_menu
+{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    padding-left: 10px;
+    height: 50px;
+    line-height: 50px;
+    white-space: normal;
+}
+.navbar_admin
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profil_admin_drdwn
+{
+    position: relative;
+}
+ .profil_akun_wrap
+{
+    width: fit-content;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 7px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ .profil_akun_wrap .profil_border
+{
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    background: #f4fdff;
+}
+ .profil_akun_wrap .username
+{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+ .profil_akun_wrap .profil_border i
+{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    line-height: 42px;
+    margin-left: -1px;
+}
+.profil_admin_drdwn_wrap .opsi_akun
+{
+    position: absolute;
+    top: 110%;
+    width: 88%;
+    height: fit-content;
+    padding: 6px;
+    background-color: #eeeeee;
+    z-index: 9999;
+    border-radius: 3px;
+    line-height: normal;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.527);
+    display: none;
+}
+.profil_admin_drdwn_wrap .opsi_akun.active
+{
+    display: block;
+}
+.profil_admin_drdwn_wrap .opsi_akun a
+{   
+    color: #000000;
+}
+.profil_admin_drdwn_wrap .opsi_akun a:hover
+{   
+    color: #000000;
+}
+.profil_admin_drdwn_wrap .opsi_akun .sub_opsi
+{
+    height: fit-content;
+    padding: 7px;
+    border-radius: 3px;
+}
+.profil_admin_drdwn_wrap .opsi_akun .sub_opsi:hover
+{
+    background-color: #cdcdcd;
+}
+.profil_admin_drdwn_wrap .opsi_akun .sub_opsi span i
+{
+    font-size: 12px;
+}
+.profil_admin_drdwn_wrap .opsi_akun .sub_opsi span
+{
+    font-size: 12px;
+    font-weight: 550;
+    color: #d50000;
+}

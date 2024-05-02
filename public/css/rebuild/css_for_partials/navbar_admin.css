@@ -1,0 +1,285 @@
+.navbar_wrap .navbar
+{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 72px;
+    background-color: #9CB7E0;
+    z-index: 9998;
+}
+.navbar_wrap .navbar .container_wrap 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 41px;
+    padding-right: 41px;
+}
+.navbar .container_wrap .btn_sidebar  .sidebar_icon i
+{   
+    padding-top: 25px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.navbar .container_wrap .search_box_wrap
+{
+    padding-top: 23.5px;
+}
+.navbar .container_wrap .search_box_wrap .search_box
+{
+    width: 600px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #EBE9E9
+}
+.navbar .container_wrap .search_box_wrap .search_box form
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: none;
+    height: 100%;
+}
+.navbar .container_wrap .search_box_wrap .search_box form i
+{
+    line-height: 32px;
+    margin-right: 5px;
+}
+.navbar .container_wrap .search_box_wrap .search_box form input
+{
+    width: 105px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    transition: 1s;
+}
+.navbar .container_wrap .search_box_wrap .search_box form input:focus
+{
+    width: 90%;
+}
+.navbar .container_wrap .search_box_wrap .search_box form input::placeholder
+{
+    font-style: italic;
+}
+.navbar .container_wrap .account_box 
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.navbar .container_wrap .account_box .opsi_account
+{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-top: 8px;
+    top: 120%;
+    background-color: #e4e4e4;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
+    display: none;    
+}
+.navbar .container_wrap .account_box .opsi_account.active
+{
+    display: block;
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi
+{
+    font-size: 15px;
+    line-height: 30px;
+    border-bottom: .3px solid rgba(0, 0, 0, 0.315);
+    margin-top: 0px;
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi:hover
+{
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 0px;
+    background-color: rgb(175, 9, 9);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi.default:hover
+{
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 0px;
+    background-color: rgb(197, 197, 197);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi a i
+{
+    font-size: 15px;
+    margin-right: 5px;
+    color: rgb(175, 9, 9);
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi.default a i
+{
+    font-size: 15px;
+    margin-right: 5px;
+    color: black;
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi:hover a i
+{
+    color: #fff
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi.default:hover a i
+{
+    color: black;
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi a .font_sub_menu
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(175, 9, 9);
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi.default a .font_sub_menu
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi:hover a .font_sub_menu
+{
+    color: #fff;
+}
+.navbar .container_wrap .account_box .opsi_account .sub_opsi.default:hover a .font_sub_menu
+{
+    color: black;
+}
+.navbar .container_wrap .account_box .username_box
+{
+    padding-top: 18px;
+    max-width: 200px;
+    padding-left: 10px;
+}
+.navbar .container_wrap .account_box .username_box p
+{
+    font-size: 14px;
+    text-align: end;
+    font-weight: 600;
+    margin-right: 8px;
+}
+.navbar .container_wrap .account_box .username_box p.font_role
+{
+    font-size: 8px;
+    font-weight: 400;
+}
+.navbar .container_wrap .account_box .border_profil
+{
+    width: 48px;
+    height: 48px;
+    margin-top: 13px;
+    border-radius: 56px;
+    background-color: #fff;
+    margin-right: 5px;
+}
+.section_box1
+{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    margin-top: -115px;
+}
+.section_box1 .container_wrap
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 3%;
+    right: 3%;
+}
+.section_box1 .container_wrap .box1
+{
+    width: 660px;
+    height: 190px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.59);
+    border-radius: 15px;
+    background-color: #EFEFEF;
+    margin-top: 47px;
+}
+.section_box1 .container_wrap .boxRequest_notifikasi
+{
+    width: 580px;
+    height: 237px;
+    background-color: #EFEFEF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.59);
+    border-radius: 15px;
+    padding-top: 21px;
+    padding-left: 30px;
+}
+.section_box1 .boxRequest_notifikasi p.title_box
+{
+    font-size: 24;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-bottom: 22px;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester .border_profil
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #818181;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester .profil_username
+{
+    margin-left: 22px;
+    margin-top: -2px;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester .profil_username p.username
+{
+    font-size: 17px;
+    font-weight: 500;
+}
+.section_box1 .boxRequest_notifikasi .profil_requester .profil_username p.role
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+.section_box1 .boxRequest_notifikasi .line
+{
+    width: 527px;
+    border-bottom: 1px solid black;
+    margin-top: 24px;
+}
+.section_box1 .boxRequest_notifikasi .annoucement
+{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 19px;
+}
+.section_box2 .container_wrap
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section_box2 .container_wrap .box_analys
+{
+    width: 1280px;
+    height: 509px;
+    margin-top: 300px;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.59);
+}

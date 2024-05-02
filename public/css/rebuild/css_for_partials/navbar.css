@@ -1,0 +1,211 @@
+/* Navbar */
+.navbar-container{
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    z-index: 9999;
+    top: 0%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+/* Navbar-default */
+.navbar-default-container{
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 2.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9998;
+    background-color: #f4fdff;
+    box-shadow: 0px 3px 10px rgb(20, 20, 20);
+    top: 0%;
+}
+/* End-Navbar */
+
+/* Logo-Navbar */
+.logo-poliwangi-navbar {
+    padding-top: 5px;
+    width: 62px;
+    height: 60px;
+}
+/* End-Logo-Navbar */
+
+/* Font-Logo-Navbar */
+.logo-font-warp {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 35px;
+}
+.fontlogo {
+    margin-left: 20px;
+}
+.brand-font {
+    font-size: 35px;
+    font-weight: 650;
+    color: #f4fdff;
+}
+.subtittle-font {
+    margin-top: -4px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #f4fdff;
+}
+
+/* Navbar Default */
+.brand-font-default {
+    font-size: 35px;
+    font-weight: 650;
+    color: #05204a;
+}
+.subtittle-font-default {
+    margin-top: -4px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #05204a;
+}
+/* End-Font-Logo-Navbar*/
+
+/* Selection-Menu-login-dan-default*/
+.selector-menu ul {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-left: -50px;
+    line-height: 65px;
+    font-size: medium;
+    font-weight: 415;
+}
+.selector-menu-default ul {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    line-height: 65px;
+    font-size: medium;
+    font-weight: 415;
+}
+.selector-menu-default ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.selector-menu ul li a{
+    color: #f4fdff;
+    text-decoration: none;
+    margin-left: 70px;
+}
+.selector-menu ul li a:hover{
+    margin-left: 70px;
+    color: salmon;
+}
+
+/* Untuk Navbar Default */
+.selector-menu-default ul li a{
+    color: #05204a;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.selector-menu-default ul li a:hover{
+    margin-left: 20px;
+    color: salmon;
+}
+/* End-Selection-Menu */
+
+.navbar-default-container .selector-menu-default ul li#menu_akun
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-default-container .selector-menu-default ul li#menu_akun .opsi_akun
+{
+    position: absolute;
+    top: 105%;
+    width: 100%;
+    height: fit-content;
+    padding: 6px;
+    background-color: #eeeeee;
+    z-index: 9999;
+    border-radius: 3px;
+    line-height: normal;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.527);
+    display: none;
+}
+.navbar-default-container .selector-menu-default ul li#menu_akun .opsi_akun.active
+{
+    display: block;
+}
+.navbar-default-container .selector-menu-default ul li#menu_akun .opsi_akun a
+{   
+    color: #000000;
+}
+.navbar-default-container .selector-menu-default ul li#menu_akun .opsi_akun a:hover
+{   
+    color: #000000;
+}
+.navbar-default-container .selector-menu-default ul li#menu_akun .opsi_akun .sub_opsi
+{
+    height: fit-content;
+    padding: 7px;
+    border-radius: 3px;
+}
+.navbar-default-container .selector-menu-default ul li#menu_akun .opsi_akun .sub_opsi:hover
+{
+    background-color: #cdcdcd;
+}
+.navbar-default-container .selector-menu-default ul li#menu_akun .opsi_akun .sub_opsi span i
+{
+    font-size: 12px;
+}
+.navbar-default-container .selector-menu-default ul li#menu_akun .opsi_akun .sub_opsi span
+{
+    font-size: 12px;
+    font-weight: 550;
+    color: #d50000;
+}
+.navbar-default-container .selector-menu-default ul li .profil_akun_wrap
+{
+    width: fit-content;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar-default-container .selector-menu-default ul li .profil_akun_wrap .profil_border
+{
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    background: #f4fdff;
+}
+.navbar-default-container .selector-menu-default ul li .profil_akun_wrap .username
+{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.navbar-default-container .selector-menu-default ul li .profil_akun_wrap .profil_border i
+{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    line-height: 42px;
+    margin-left: -1px;
+}
